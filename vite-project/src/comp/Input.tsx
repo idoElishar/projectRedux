@@ -14,7 +14,6 @@ const Input: React.FC = () => {
   const changeValue = () => {
     setValue1(value);
     dispatch(setAnotherAnimal(value));
-
   };
 
   return (

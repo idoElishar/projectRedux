@@ -1,13 +1,13 @@
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-export interface CounterState {
+export interface animalState {
     anotherAnimal: {
         value: string;
     };
 }
 
-const initialState: CounterState = {
+const initialState: animalState = {
     anotherAnimal: {
         value: 'animal',
     },
